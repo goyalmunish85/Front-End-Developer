@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<title>Portfolio</title>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
+</head>
+<body>
+	<div class="container">
+		<header class="row">
+			<div class="col-md-6">
+				<img class="img-responsive" src="image/logo.jpg">
+			</div>
+			<div class="col-md-6 text-right text-uppercase">
+				<h1 class="text-thin">Munish Goyal</h1>
+				<h4>Mathematician</h4>
+			</div>
+		</header>
+		<section class="row">
+			<article class="col-md-12">
+				<hr>
+			</article>
+			<article class="col-md-12">
+				<img class="img-responsive mainpic" alt="main pictures" src="image/m.jpg">
+			</article>
+			<article class="col-md-12">
+				Mathematicians seek out patterns and use them to formulate new conjectures. Mathematicians resolve the truth or falsity of conjectures by mathematical proof. When mathematical structures are good models of real phenomena, then mathematical reasoning can provide insight or predictions about nature. Through the use of abstraction and logic, mathematics developed from counting, calculation, measurement, and the systematic study of the shapes and motions of physical objects. Practical mathematics has been a human activity from as far back as written records exist. The research required to solve mathematical problems can take years or even centuries of sustained inquiry.
+			</article>
+			<article class="col-md-12">
+				<h2 class="text-uppercase">Top Mathematicians</h2>
+			</article>
+		</section>
+		<footer>
+			<div class="row">
+				<div class="col-md-4" data-target="#charles" data-toggle="modal">
+					<img alt="Charles Babbage" class="img-responsive mathematicians" src="image/charles.jpg">
+					<h4 class="name1">Charles Babbage</h4>
+				</div>
+				<div class="col-md-4" data-target="#alan" data-toggle="modal">
+					<img alt="Alan Turing" class="img-responsive mathematicians" src="image/alan.jpg">
+					<h4 class="name2">Alan Turing</h4>
+				</div>
+				<div class="col-md-4" data-target="#ramanujan" data-toggle="modal">
+					<img alt="Srinivasa Ramanujan" class="img-responsive mathematicians" src="image/ramanujan.jpeg">
+					<h4 class="name3">Srinivasa Ramanujan</h4>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="charles" role="dialog" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Charles Babbage</h4>
+				</div>
+				<div class="modal-body">
+					<img alt="Charles Babbage" class="img-responsive mathematicians1" src="image/charles.jpg"> <b>Born</b>: 26 December 1791, London, United Kingdom<br>
+					<b>Died</b>: 18 October 1871, Marylebone, United Kingdom<br>
+					<b>Awards</b>: Gold Medal of the Royal Astronomical Society<br>
+					<b>Parents</b>: Betsy Plumleigh Teape, Benjamin Babbage
+					<hr>
+					<p>Charles Babbage KH FRS was an English polymath. A mathematician, philosopher, inventor and mechanical engineer, Babbage is best remembered for originating the concept of a digital programmable computer.</p>
+					<p></p>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="alan" role="dialog" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Alan Turing</h4>
+				</div>
+				<div class="modal-body">
+					<img alt="Alan Turing" class="img-responsive mathematicians1" src="image/alan.jpg"> <b>Born</b>: 23 June 1912, Maida Vale<br>
+					<b>Died</b>: 7 June 1954, Wilmslow, United Kingdom<br>
+					<b>Education</b>: Princeton University (1936–1938)<br>
+					<b>Parents</b>: Julius Mathison Turing, Ethel Sara Stoney
+					<hr>
+					<p>Alan Mathison Turing OBE FRS was an English computer scientist, mathematician, logician, cryptanalyst and theoretical biologist.</p>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="ramanujan" role="dialog" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Srinivasa Ramanujan</h4>
+				</div>
+				<div class="modal-body">
+					<img alt="Srinivasa Ramanujan" class="img-responsive mathematicians1" src="image/ramanujan.jpeg"> <b>Born</b>: 22 December 1887, Erode<br>
+					<b>Died</b>: 26 April 1920, Kumbakonam<br>
+					<b>Spouse</b>: Janakiammal (m. 1909–1920)<br>
+					<b>Education</b>: Trinity College, Cambridge (1919–1920)<br>
+					<b>Parents</b>: K. Srinivasa Iyengar, Komalatammal
+					<hr>
+					<p>Srinivasa Iyengar Ramanujan FRS was an Indian mathematician and autodidact who lived during the British Raj.</p>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

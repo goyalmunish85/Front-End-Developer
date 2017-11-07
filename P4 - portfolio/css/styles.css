@@ -1,0 +1,32 @@
+body {
+font-family: "Lato", sans-serif;
+font-weight: 200;
+}
+.name1 {
+padding-left: 16.5%;
+}
+.name2 {
+padding-left: 23%;
+}
+.name3 {
+padding-left: 13.5%;
+}
+.mathematicians {
+height: auto;
+width: 270px;
+}
+.mathematicians1 {
+height: 300px;
+width: 270px;
+float: left;
+padding-right: 12px;
+}
+.mainpic {
+height: 90%;
+width: 100%;
+padding-bottom: 1%;
+}
+hr {	
+	height: 2px;
+	background-color: grey;
+;

@@ -1,0 +1,44 @@
+.pic {
+	height: 200px;
+	width: 300px;
+	border: 1px solid grey;
+	margin-left: 1px;
+	margin-bottom: 5px;
+	margin-top: 8px;
+}
+#header {
+	width: 304px;
+	border: 1px solid grey;
+	margin: auto;
+	padding: 18px;
+	box-shadow: 8px 8px 8px 1px grey;
+}
+.inner {
+	border: 1px solid grey;
+	padding: 5px;
+	text-align: justify;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.italic {
+	font-style: italic;
+}
+li {
+	list-style-type: none;
+	margin-left: -35px;
+}
+.heading {
+	font-weight: bold;
+}
+.margn {
+	margin: auto;
+	font-size: 150%;
+}
+.desc {
+	text-align: justify;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+body{
+	font-family:"Times New Roman", Georgia, Serif;
+}
